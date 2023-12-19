@@ -10,7 +10,7 @@
 <br>
 <p>It appears that most power plants are locaed in the east cost compared to Midwest and west coast. Fortunately, our data subset does not have missing values. The dataset has 17 columns, but the important variables for this study are Power plant names, Capacity of the power plant, and their status (whether they are operational or shutdown).</p> 
 <br>
-<iframe src="map_number_of_nuclear_plants.png" width="800" height="1000"></iframe>
+<iframe src="map_number_of_nuclear_plants.png" width="1000" height="600"></iframe>
 <br>
 In the map above, we spatial joined nuclear dataset with the shapefile and plotted the number of nuclear plants across states in the United States.
 <br>
