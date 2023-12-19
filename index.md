@@ -12,7 +12,8 @@
 <br>
 <iframe src="map_number_of_nuclear_plants.png" width="1080" height="640"></iframe>
 <br>
-In the map above, we spatial joined nuclear dataset with the shapefile and plotted the number of nuclear plants across states in the United States.
+<p>In the map above, we spatial joined nuclear dataset with the shapefile and plotted the number of nuclear plants across states in the United States. Seem like Pennsylvania, Illinois, South Carolina and California have the highest numbers of nuclear plants compared to other states.</p> 
 <br>
 <iframe src="map_with_nuclear_points.png" width="800" height="1000"></iframe>
 <br>  
+<p>We decided to check how many and which nuclear plants are located in New Jersey. The map above presents the population density of NJ from census data. However, we are interested in areas thts are more populated compard to other areas. Therefore, we calculated the CVs of population, and picked those below 40 (4% when normalized). The reason we are doing that is that the less the CVs, the more polulation living in the aread since the dispersion aorund the median population is less. It means, areas are equally and normally populated. The hatched areas represent the most populated areas, which is another layer of population data with CVs less than 40. Moreover, the red points represent nuclear plants in NJ. it appreas tht 3 nuclear plants each Salem_1, Salem_2, and Hope Creek_1 are locared on coast lines where it is less populated, versus Oyster Creek nuclear plant which is close to populated areas. This map is the result of spatial joining of multiple layers of census data, and nuclear plants dataset.  </p>
